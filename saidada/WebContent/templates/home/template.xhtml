@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets" xmlns:p="http://primefaces.org/ui"
+	xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/">
+<ui:insert name="head">
+	<ui:include src="/templates/common/head.xhtml" />
+</ui:insert>
+<h:body>
+	<p:growl id="growl" showDetail="true" autoUpdate="true" />
+	<p:growl id="messages" showDetail="true" sticky="true" />
+	<p:idleMonitor timeout="1200000" update="messages">
+		<p:ajax event="idle" listener="#{homeBean.idleListener}" update="messages" />
+	</p:idleMonitor>
+	<div id="page">
+		<div id="content">
+			<ui:insert name="content" />
+		</div>
+		<div id="footer-div"></div>
+	</div>
+	<div id="footer-content">
+		<ui:insert name="footer">
+			<ui:include src="/templates/common/footer.xhtml" />
+		</ui:insert>
+	</div>
+</h:body>
+</html>
