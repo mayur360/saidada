@@ -1,0 +1,17 @@
+.header-container {
+	width: 960px;
+	@
+	extend
+	.container;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+#header-div {
+	position: relative; @ include leader();
+	height: 130px;
+}

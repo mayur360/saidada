@@ -1,0 +1,91 @@
+.home_div {
+	background-color: #FCFAE6;
+	width: 960px;
+	margin-left: 5.5em;
+	margin-right: 0.5em;
+}
+
+body {
+	background-image: url('/resources/images/home/trial.jpg');
+	padding-top: 15px;
+	position: relative;
+}
+
+#small-header-div {
+	min-height: 50px;
+}
+
+.header-container {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	background-color: #F4F1DD;
+}
+
+/* top panel */
+#topPan {
+	width: 778px;
+	height: 50px;
+	position: relative;
+	margin: 0 auto;
+	padding-bottom: 25px;
+}
+
+#topPan img {
+	width: 204px;
+	height: 50px;
+	display: block;
+	padding: 19px 0 0 6px;
+}
+/* Menu Panel */
+#topPan ul {
+	width: 520px;
+	height: 50px;
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 349px;
+	margin: 0;
+	padding: 0;
+}
+
+#topPan ul li {
+	float: left;
+	width: 104px;
+	display: block;
+	text-align: center;
+	height: 50px;
+}
+
+#topPan ul li a {
+	width: 104px;
+	height: 35px;
+	display: block;
+	font: 14px/14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #2E4E00;
+	background: url(/resources/images/homemenu/menu-bg.gif) 0 0 repeat-x #F4F1DD;
+	text-decoration: none;
+	margin: 0;
+	padding: 40px 0 0 0;
+}
+
+#topPan ul li a:hover {
+	width: 104px;
+	height: 50px;
+	display: block;
+	background: #FCFAE6;
+	color: #2E4E00;
+	text-decoration: none;
+}
+
+#topPan ul li span {
+	width: 104px;
+	height: 35px;
+	display: block;
+	background: url(/resources/images/homemenu/menu-devider1.gif) 100% 0 no-repeat #FCFAE6;;
+	color: #2E4E00;
+	text-decoration: none;
+	padding: 40px 0 0 0;
+	line-height: 14px;
+}

@@ -1,0 +1,178 @@
+#footer .legal-text {
+	position: absolute;
+	top: 35px;
+	left: 0;
+	font-size: .85em;
+	color: $mocha-bbb;
+}
+
+#navlist li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 10px;
+}
+
+.footer-container {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	vertical-align: baseline;
+}
+
+#footer {
+	position: relative;
+	top: 5px;
+}
+
+#footer ul li {
+	float: left;
+	margin-top: 5px;
+	margin-right: 10px;
+	list-style-type: none;
+}
+
+/* FOOTER PANEL */
+#footerPan {
+	width: 960px;
+	height: 200px;
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#footernextPan {
+	width: 960px;
+	height: 100px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	background: #B0AD93;
+	color: #fff;
+	margin: 0;
+}
+
+#footerPan ul {
+	width: 380px;
+	display: block;
+	position: absolute;
+	left: 33px;
+	top: 33px;
+}
+
+#footerPan li {
+	float: left;
+	font: 12px/15px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	list-style-type: none;
+}
+
+#footerPan ul li a {
+	padding: 0 10px;
+	color: #FFFFFA;
+	background: #B0AD93;
+	text-decoration: none;
+}
+
+#footerPan ul li a:hover {
+	text-decoration: underline;
+}
+
+#footerPan ul li a.padl {
+	padding: 0 0 0 14px;
+}
+
+#footerPan ul.templateworld {
+	width: 190px;
+	background: #B0AD93;
+	color: #fff;
+	display: block;
+	position: absolute;
+	top: 79px;
+	left: 44px;
+}
+
+#footerPan ul.templateworld li a {
+	background: #B0AD93;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+}
+
+#footerPan ul.templateworld li a:hover {
+	text-decoration: underline;
+}
+
+#footerPan p {
+	background: #B0AD93;
+	margin: 54px 45px 0 0;
+	display: block;
+	position: absolute;
+	top: 24px; 
+	right : 4px;
+	color: #FCFAE6;
+	font: 12px/15px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	right: 4px;
+}
+
+#footerPanhtml {
+	width: 64px;
+	height: 19px;
+	display: block;
+	position: absolute;
+	top: 78px;
+	right: 170px;
+}
+
+#footerPanhtml a {
+	width: 59px;
+	height: 19px;
+	background: url(images/arrow5.gif) no-repeat 45px 0px #D0CEB8;
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin: 0;
+	padding: 0 0 0 5px;
+	border: 1px solid #FFFFFA;
+	color: #353427;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+#footerPanhtml a:hover {
+	background: url(images/arrow5.gif) no-repeat 45px 0px #B0AD93;
+	color: #353427;
+	text-decoration: none;
+}
+
+#footerPancss {
+	width: 64px;
+	height: 19px;
+	display: block;
+	position: absolute;
+	top: 78px;
+	right: 89px;
+}
+
+#footerPancss a {
+	width: 59px;
+	height: 19px;
+	background: url(images/arrow5.gif) no-repeat 45px 0px #D0CEB8;
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin: 0;
+	padding: 0 0 0 5px;
+	border: 1px solid #FFFFFA;
+	color: #353427;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+#footerPancss a:hover {
+	background: url(images/arrow5.gif) no-repeat 45px 0px #B0AD93;
+	color: #353427;
+	text-decoration: none;
+}
