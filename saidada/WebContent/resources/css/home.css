@@ -1,14 +1,24 @@
 .home_div {
 	background-color: #FCFAE6;
 	width: 960px;
-	margin-left: 5.5em;
+	margin-left: 1.5em;
 	margin-right: 0.5em;
+	min-height: 650px;
+	max-height: 650px;
 }
 
 body {
 	background-image: url('/resources/images/home/trial.jpg');
 	padding-top: 15px;
 	position: relative;
+}
+
+#middle-content {
+	width: 100%;
+	min-height: 650px;
+	max-height: 650px;
+	overflow: auto;
+	min-width: 960px;
 }
 
 #small-header-div {
