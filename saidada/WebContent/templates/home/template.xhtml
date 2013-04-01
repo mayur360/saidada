@@ -8,11 +8,6 @@
 	<ui:include src="/templates/common/head.xhtml" />
 </ui:insert>
 <h:body>
-	<p:growl id="growl" showDetail="true" autoUpdate="true" />
-	<p:growl id="messages" showDetail="true" sticky="true" />
-	<p:idleMonitor timeout="1200000" update="messages">
-		<p:ajax event="idle" listener="#{homeBean.idleListener}" update="messages" />
-	</p:idleMonitor>
 	<div id="page">
 		<div id="header">
 			<ui:insert name="header">

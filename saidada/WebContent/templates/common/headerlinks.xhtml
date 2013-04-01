@@ -1,14 +1,30 @@
 <ui:composition xmlns="http://www.w3.org/1999/xhtml" xmlns:ui="http://java.sun.com/jsf/facelets"
 	xmlns:h="http://java.sun.com/jsf/html" xmlns:p="http://primefaces.org/ui" xmlns:f="http://java.sun.com/jsf/core">
 	<h:form id="menuForm">
-		<div id="topPan">
-			<ul>
-				<li><span>Home</span></li>
-				<li><a href="#">About us</a></li>
-				<li><a href="#">Services</a></li>
-				<li><a href="#">Client</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
+		<div id="topbar">
+			<div id="TopSection">
+				<h1 id="sitename">
+					<span><a href="#">Sai Dada Smruti</a></span>
+				</h1>
+				<div id="topbarnav">
+					<span class="topnavitems"><a href="#contents">Skip to Contents</a> <!-- | <a href="3">Register</a> | <a href="3">Login
+					</a> --></span>
+					<form action="#">
+						<div class="searchform">
+							<label for="searchtxt"> Search Terms: </label> <input class="keywordfield" id="searchtxt" /> <input
+								type="submit" value="Search" />
+						</div>
+					</form>
+				</div>
+				<div class="clear"></div>
+				<ul id="topmenu">
+					<li class="active"><a href="index.html">Home</a></li>
+					<li><a href="#">Blog Entries</a></li>
+					<li><a href="#">Table Example</a></li>
+					<li><a href="#">Form Example</a></li>
+					<li><a href="#">Notes</a></li>
+				</ul>
+			</div>
 		</div>
 	</h:form>
 </ui:composition>
